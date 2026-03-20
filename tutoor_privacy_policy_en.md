@@ -35,6 +35,7 @@ Tutoor offers in-app subscriptions. All payment processes are handled through th
 ## 3. Security Measures
 To ensure your data security, Tutoor employs the following mechanisms:
 * **Local Storage:** Your data remains on your device.
+* **Data Transmission:** Your data utilizes end-to-end encryption technology during transmission to iCloud, in compliance with Apple's security standards.
 * **iCloud Backup:** When iCloud is enabled, data is transferred to Apple’s encrypted cloud. Data is protected by Apple’s industry-leading security technology during transmission and storage.
 
 ---
@@ -70,7 +71,8 @@ If you have any questions regarding this Privacy Policy or Tutoor, please contac
 
 * **Email:** vrcslb@163.com
 
-
+---
+---
 
 # Tutoor 隐私政策 - 中文 (Privacy Policy)
 
@@ -94,7 +96,7 @@ Tutoor 是一款**以本地存储为核心**的应用。
 您在 Tutoor 中录入的所有数据，均**仅保存在您的 iOS 设备本地**。作为开发者，我们无法访问、读取、备份或修改这些数据。
 
 ### 2.2 iCloud 同步
-为了方便您在多台设备间同步数据，Tutoor 使用了 Apple 提供的 **iCloud** 服务：
+为了方便您在多台设备间同步数据， Tutoor 使用了 Apple 提供的 **iCloud** 服务：
 * 您的数据通过您的 Apple ID 加密存储在 Apple 的云端服务器上。
 * 开发者不拥有、也无法从后台访问您的 iCloud 容器。
 * 您可以随时在 iOS 系统设置中关闭 Tutoor 的 iCloud 同步权限。
@@ -109,6 +111,7 @@ Tutoor 提供内购订阅服务，所有支付流程均通过 Apple 的 **App St
 ## 3. 安全措施
 为了确保您的数据安全，Tutoor 采用了以下机制：
 * **本地存储：** 您的数据仅存储在您的设备中。
+* **数据传输：** 您的数据在传输至 iCloud 过程中采用端到端加密技术，符合 Apple 的安全标准。
 * **iCloud 备份：** 当您开启 iCloud 功能时，数据将传输至 Apple 的加密云端。数据在传输及存储过程中均受到 Apple 行业领先的安全技术保护。
 
 ---
