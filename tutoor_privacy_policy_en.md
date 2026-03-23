@@ -1,6 +1,6 @@
 # Tutoor Privacy Policy - English
 
-**Last Updated: March 20, 2026**
+**Last Updated: March 24, 2026**
 
 Thank you for choosing **Tutoor**. We deeply value the privacy of your data, and protecting it is our core principle. This policy explains how we handle your information.
 
@@ -69,14 +69,14 @@ We may update this Privacy Policy from time to time. Any changes will be posted 
 ## 8. Contact Us
 If you have any questions regarding this Privacy Policy or Tutoor, please contact us at:
 
-* **Email:** vrcslb@163.com
+* **Email:** support@tutoorapp.com
 
 ---
 ---
 
 # Tutoor 隐私政策 - 中文 (Privacy Policy)
 
-**最近更新日期：2026年3月20日**
+**最近更新日期：2026年3月24日**
 
 感谢您选择 **Tutoor**。我们深知您的数据的私密性，因此我们将保护您的隐私作为核心准则。本政策旨在说明我们如何处理您的信息。
 
@@ -145,4 +145,4 @@ Tutoor 致力于提供纯净的使用体验：
 ## 8. 联系我们
 如果您对本隐私政策或 Tutoor 有任何疑问，请通过以下方式联系：
 
-* **Email:** vrcslb@163.com
+* **Email:** support@tutoorapp.com
