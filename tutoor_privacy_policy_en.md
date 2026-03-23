@@ -32,7 +32,15 @@ Tutoor offers in-app subscriptions. All payment processes are handled through th
 
 ---
 
-## 3. Security Measures
+## 3. System Permissions
+Tutoor may request the following permissions to provide specific features. These are entirely optional:
+* **iCloud Permission:** Used for data backup and cross-device synchronization.
+* **Face ID / Touch ID:** Used to verify your identity when launching the app to enhance privacy.
+* **Photo Library:** Used to save generated course schedules or feedback forms to your device.
+
+---
+
+## 4. Security Measures
 To ensure your data security, Tutoor employs the following mechanisms:
 * **Local Storage:** Your data remains on your device.
 * **Data Transmission:** Your data utilizes end-to-end encryption technology during transmission to iCloud, in compliance with Apple's security standards.
@@ -40,7 +48,7 @@ To ensure your data security, Tutoor employs the following mechanisms:
 
 ---
 
-## 4. User Rights
+## 5. User Rights
 As the sole owner of your data, you have the following rights:
 * **Right to Access:** You can view all entered data within the Tutoor app at any time.
 * **Right to Manage:** You can modify or edit existing records whenever you choose.
@@ -48,25 +56,25 @@ As the sole owner of your data, you have the following rights:
 
 ---
 
-## 5. Children's Privacy
+## 6. Children's Privacy
 Tutoor is a productivity tool designed for teachers, training institution professionals, or freelancers.
 * **Age Restriction:** Our services are **not directed to children under the age of 13**.
 
 ---
 
-## 6. Third-Party Services
+## 7. Third-Party Services
 Tutoor is committed to providing a clean user experience:
 * **No Ads:** We do not integrate any third-party advertising SDKs.
 * **No Tracking:** We do not use third-party analytics tools (such as Firebase or Google Analytics) to track your in-app behavior.
 
 ---
 
-## 7. Policy Updates
+## 8. Policy Updates
 We may update this Privacy Policy from time to time. Any changes will be posted on this page, and the "Last Updated" date at the top will be revised accordingly.
 
 ---
 
-## 8. Contact Us
+## 9. Contact Us
 If you have any questions regarding this Privacy Policy or Tutoor, please contact us at:
 
 * **Email:** support@tutoorapp.com
@@ -108,7 +116,15 @@ Tutoor 提供内购订阅服务，所有支付流程均通过 Apple 的 **App St
 
 ---
 
-## 3. 安全措施
+## 3. 系统权限
+为了实现特定功能，Tutoor 可能会申请以下系统权限，您可以选择拒绝或在设置中随时关闭：
+* **iCloud 权限：** 用于数据的备份和多设备同步（可选）。
+* **Face ID 权限：** 用于在启动应用时验证是否为本人，保护您的隐私（可选）。
+* **相册权限：** 用于将生成的课程表和课程反馈表保存至手机相册（可选）。
+
+---
+
+## 4. 安全措施
 为了确保您的数据安全，Tutoor 采用了以下机制：
 * **本地存储：** 您的数据仅存储在您的设备中。
 * **数据传输：** 您的数据在传输至 iCloud 过程中采用端到端加密技术，符合 Apple 的安全标准。
@@ -116,7 +132,7 @@ Tutoor 提供内购订阅服务，所有支付流程均通过 Apple 的 **App St
 
 ---
 
-## 4. 用户权利
+## 5. 用户权利
 作为数据的唯一拥有者，您拥有以下权利：
 * **查看权：** 您可以随时在 Tutoor 应用内查看所有录入的数据。
 * **管理权：** 您可以随时对已有的记录进行修改或编辑。
@@ -124,25 +140,25 @@ Tutoor 提供内购订阅服务，所有支付流程均通过 Apple 的 **App St
 
 ---
 
-## 5. 儿童隐私保护
+## 6. 儿童隐私保护
 Tutoor 是一款面向教师、培训机构从业者或自由职业者的生产力工具。
 * **年龄限制：** 我们的服务**不面向 13 岁以下的儿童**。
 
 ---
 
-## 6. 第三方服务
+## 7. 第三方服务
 Tutoor 致力于提供纯净的使用体验：
 * **无广告：** 我们不集成任何第三方广告 SDK。
 * **无追踪：** 我们不使用第三方分析工具（如 Firebase 或 Google Analytics）来追踪您的应用内行为。
 
 ---
 
-## 7. 政策更新
+## 8. 政策更新
 我们可能会不时更新本隐私政策。任何更改都将在本页面发布，并同步更新页面顶部的“最近更新日期”。
 
 ---
 
-## 8. 联系我们
+## 9. 联系我们
 如果您对本隐私政策或 Tutoor 有任何疑问，请通过以下方式联系：
 
 * **Email:** support@tutoorapp.com
