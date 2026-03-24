@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Tutoor — 专为独立老师打造的教务系统，集排课、考勤、课程与学生管理、课时与财务统计于一体。" />
+    <title>Tutoor — 独立老师教务系统</title>
+    <link rel="icon" href="tutooricon2.png" type="image/png" />
+    <link rel="apple-touch-icon" href="tutooricon2.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&family=Fredoka:wght@600&family=Noto+Sans+SC:wght@400;500;600;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container header-inner">
+        <a class="logo" href="#top">
+          <img src="tutooricon2.png" alt="" width="32" height="32" class="app-icon app-icon--header" />
+          <span>Tutoor</span>
+        </a>
+        <nav class="nav" aria-label="Primary">
+          <a href="#features" data-i18n="nav_features">核心优势</a>
+          <a href="#screenshots" data-i18n="nav_screenshots">应用截图</a>
+          <a href="#faq" data-i18n="nav_faq">常见问题</a>
+        </nav>
+        <div class="lang-switch" role="group" aria-label="Language">
+          <button type="button" class="lang-btn" data-lang="zh-CN" aria-pressed="true">中文</button>
+          <button type="button" class="lang-btn" data-lang="en">EN</button>
+        </div>
+      </div>
+    </header>
+
+    <main id="top">
+      <section class="hero" aria-labelledby="hero-title">
+        <div class="container hero-split">
+          <div class="hero-copy">
+            <div class="hero-intro">
+              <img
+                src="tutooricon2.png"
+                alt="Tutoor"
+                width="96"
+                height="96"
+                class="app-icon app-icon--hero"
+                decoding="async"
+              />
+              <h1 id="hero-title" class="hero-title">Tutoor</h1>
+              <p class="hero-lead" data-i18n="hero_lead">
+                专为独立老师打造的教务系统，集排课、考勤、课程管理、学生管理、课时统计、财务统计于一体。我们深知教务工作的繁琐，帮你彻底告别手写记账和复杂表格，让您能够全情投入教学。
+              </p>
+            </div>
+
+            <div class="hero-features">
+              <h2 id="features" class="section-title" data-i18n="features_title">核心优势</h2>
+              <ul class="feature-grid feature-grid--hero">
+                <li class="feature-card">
+                  <span class="feature-icon" aria-hidden="true">📅</span>
+                  <h3 data-i18n="f1_title">教师课表</h3>
+                  <p data-i18n="f1_desc">智能课表视图，彻底杜绝撞课烦恼。</p>
+                </li>
+                <li class="feature-card">
+                  <span class="feature-icon" aria-hidden="true">✓</span>
+                  <h3 data-i18n="f2_title">学生考勤</h3>
+                  <p data-i18n="f2_desc">考勤一目了然，实时计算课酬收入，随时查看学生的上课与流水记录。</p>
+                </li>
+                <li class="feature-card">
+                  <span class="feature-icon" aria-hidden="true">📚</span>
+                  <h3 data-i18n="f3_title">课程管理</h3>
+                  <p data-i18n="f3_desc">支持一对一和班课模式，灵活设置排课逻辑与收费标准。</p>
+                </li>
+                <li class="feature-card">
+                  <span class="feature-icon" aria-hidden="true">📊</span>
+                  <h3 data-i18n="f4_title">多维数据统计</h3>
+                  <p data-i18n="f4_desc">自动统计日 / 周 / 月 / 年总课时和收入数据，账目一清二楚。</p>
+                </li>
+                <li class="feature-card">
+                  <span class="feature-icon" aria-hidden="true">🔒</span>
+                  <h3 data-i18n="f5_title">隐私保护</h3>
+                  <p data-i18n="f5_desc">数据本地存储，您的学生名单与收入细节只属于您自己。</p>
+                </li>
+                <li class="feature-card">
+                  <span class="feature-icon" aria-hidden="true">☁️</span>
+                  <h3 data-i18n="f6_title">多设备同步</h3>
+                  <p data-i18n="f6_desc">支持 iCloud 自动备份数据，多设备数据自动同步。</p>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="hero-shots" id="screenshots">
+            <h2 class="shots-heading" data-i18n="shots_title">应用截图</h2>
+            <p class="shots-sub" data-i18n="shots_sub">在真实界面中查看排课、考勤与统计等功能。</p>
+            <div class="carousel" aria-roledescription="carousel">
+              <div class="carousel-viewport">
+                <div class="carousel-track" id="carousel-track"></div>
+              </div>
+              <div class="carousel-controls">
+                <button type="button" class="carousel-btn prev" id="carousel-prev" aria-label="Previous slide">
+                  <span aria-hidden="true">‹</span>
+                </button>
+                <div class="carousel-dots" id="carousel-dots" role="tablist" aria-label="Slides"></div>
+                <button type="button" class="carousel-btn next" id="carousel-next" aria-label="Next slide">
+                  <span aria-hidden="true">›</span>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="faq" class="faq-section" aria-labelledby="faq-heading">
+        <div class="container">
+          <h2 id="faq-heading" class="section-title" data-i18n="faq_title">常见问题</h2>
+          <div class="faq-list">
+            <details class="faq-item" open>
+              <summary data-i18n="faq_q1">Tutoor 适合谁使用？</summary>
+              <p data-i18n="faq_a1">
+                Tutoor 面向需要管理排课、学员、课时与收入的私人教师；无论您主要做一对一还是班课，都可以用它理清课表与账目。
+              </p>
+            </details>
+            <details class="faq-item" open>
+              <summary data-i18n="faq_q2">我的数据存在哪里？安全吗？</summary>
+              <p data-i18n="faq_a2">
+                数据默认保存在您的设备本地；您也可以选择通过 iCloud 在您自己的 Apple 设备间同步与备份。我们不会用自有服务器存储您的学员名单与收入明细。
+              </p>
+            </details>
+            <details class="faq-item" open>
+              <summary data-i18n="faq_q3">支持哪些设备和课程类型？</summary>
+              <p data-i18n="faq_a3">
+                Tutoor 为 iPhone、iPad 等 Apple 设备设计。课程支持一对一与班课，并可为不同课程设置收费与排课规则。
+              </p>
+            </details>
+            <details class="faq-item" open>
+              <summary data-i18n="faq_q4">课时和收入是如何统计的？</summary>
+              <p data-i18n="faq_a4">
+                结合考勤记录与课程设置，应用会自动汇总日、周、月、年维度的总课时与收入，方便您对账与复盘。
+              </p>
+            </details>
+            <details class="faq-item" open>
+              <summary data-i18n="faq_q5">遇到问题如何获取帮助？</summary>
+              <p data-i18n="faq_a5">
+                您可在 App 内反馈，或发送邮件至下方地址，我们会尽快回复。
+              </p>
+            </details>
+          </div>
+
+          <div id="contact" class="contact-block">
+            <h3 class="contact-title" data-i18n="contact_title">联系我们</h3>
+            <a class="contact-email" href="mailto:support@tutoorapp.com">support@tutoorapp.com</a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <p class="footer-brand">
+          <img src="tutooricon2.png" alt="" width="28" height="28" class="app-icon app-icon--footer" />
+          <span>Tutoor</span>
+        </p>
+        <p class="footer-copy" data-i18n="footer_copy">专为独立老师设计的教务工具。</p>
+      </div>
+    </footer>
+
+    <script src="main.js"></script>
+  </body>
+</html>
