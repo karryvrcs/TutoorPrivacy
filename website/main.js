@@ -144,7 +144,7 @@
       slide.setAttribute("aria-roledescription", "slide");
       slide.setAttribute("aria-label", `${i} / ${SLIDE_COUNT}`);
       const img = document.createElement("img");
-      img.src = `${p}_${String(i).padStart(2, "0")}.png`;
+      img.src = `${p}_${String(i).padStart(2, "0")}.jpg`;
       img.alt = lang === "zh-CN" ? `Tutoor 应用截图 ${i}` : `Tutoor app screenshot ${i}`;
       img.loading = i === 1 ? "eager" : "lazy";
       slide.appendChild(img);
